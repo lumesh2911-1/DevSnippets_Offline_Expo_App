@@ -1,56 +1,179 @@
-# Welcome to your Expo app 👋
+# 💻 Expo Code Snippets App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern and responsive Code Snippets Manager built with **Expo**, **React Native**, **Expo Router**, and **TypeScript**. This application helps developers store, organize, search, and manage reusable code snippets in one place.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- 💻 Create New Code Snippets
+- 🔍 Search Snippets Instantly
+- 🏷️ Add Programming Language Tags
+- 📂 Organize Snippets by Language
+- ❤️ Mark Snippets as Favorites
+- ✏️ Edit Existing Snippets
+- 🗑️ Delete Snippets
+- 📱 Responsive Mobile UI
+- ⚡ Built with TypeScript
+- 🎨 Clean and Modern Design
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📸 Screenshots (Inside Screenshot Folder)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Make sure you have the following installed:
 
-## Get a fresh project
+- Node.js
+- npm or yarn
+- Expo CLI
+- Android Studio (Android Emulator)
+- Xcode (iOS Simulator - macOS only)
 
-When you're ready, run:
+---
+
+## 📥 Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/lumesh2911-1/DevSnippets_Offline_Expo_App.git
+
+cd DevSnippets_Offline_Expo_App
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 📦 Install Dependencies
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Using npm:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Using yarn:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+yarn install
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## ▶️ Run the Project
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Start the development server:
+
+```bash
+npx expo start
+```
+
+Then choose one of the following:
+
+- Press `a` to open Android Emulator
+- Press `i` to open iOS Simulator
+- Scan the QR code using Expo Go
+
+---
+
+## 📚 Dependencies
+
+```bash
+expo
+expo-router
+react-native
+react-native-safe-area-context
+@expo/vector-icons
+```
+
+Install dependencies:
+
+```bash
+npx expo install react-native-safe-area-context
+npx expo install @expo/vector-icons
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+app/
+├── (tabs)/
+│   ├── _layout.tsx
+│   ├── home.tsx
+│   └── favorites.tsx
+│
+├── snippets/
+│   ├── create.tsx
+│   └── [id].tsx
+│
+└── _layout.tsx
+
+assets/
+├── images/
+├── fonts/
+
+
+
+---
+
+## 🔄 App Flow
+
+1. User opens the application.
+2. Existing snippets are displayed on the Home screen.
+3. User searches snippets using the search bar.
+4. User taps the ➕ button.
+5. Create Snippet screen opens.
+6. User enters:
+
+   * Title
+   * Code Content
+   * Programming Language
+   * Tags
+7. User saves the snippet.
+8. Snippet appears instantly in the list.
+9. User can view snippet details.
+10. User can:
+
+    * Add to Favorites
+    * Edit Snippet
+    * Delete Snippet
+11. Favorite snippets appear in the Favorites tab.
+
+---
+
+## 🛠️ Technologies Used
+
+* Expo
+* React Native
+* Expo Router
+* TypeScript
+* React Hooks
+* Expo Vector Icons
+* React Native Safe Area Context
+
+---
+
+## 👨‍💻 Author
+
+### Lumesh Kumar Sahu
+
+Software Engineer | React Native Developer
+
+---
+
+## 🌐 Connect With Me
+
+* GitHub: https://github.com/lumesh2911-1
+* LinkedIn: https://www.linkedin.com/in/lumesh2911/
+* Medium: https://medium.com/@lumesh2911
+* Portfolio: https://lumesh.vercel.app/
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning, personal use, and portfolio projects.
+```
